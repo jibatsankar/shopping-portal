@@ -16,7 +16,7 @@ pipeline{
    
             }
         }
-        stage(‘test’-the-app){
+        stage(‘test-the-app'){
             steps{
                 echo 'this is the test job'
                 sh ’npm test’
